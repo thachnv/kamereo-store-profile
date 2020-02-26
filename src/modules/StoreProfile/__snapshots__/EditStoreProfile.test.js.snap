@@ -1,0 +1,1330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Edit Store Profile  should render without failure 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="pl-16 pr-16 ml-auto mr-auto mt-8"
+        style="max-width: 900px;"
+      >
+        <div>
+          <i
+            aria-label="icon: edit"
+            class="anticon anticon-edit text-xl text-primary"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="edit"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 0 0 0-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 0 0 9.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+              />
+            </svg>
+          </i>
+          <span
+            class="ml-4 font-bold"
+          >
+            EDIT STORE PROFILE
+          </span>
+        </div>
+        <div
+          class="ant-divider ant-divider-horizontal"
+          role="separator"
+        />
+        <div
+          class="flex justify-between"
+        >
+          <div
+            class="w-1/3 pr-8"
+          >
+            <div
+              class="font-bold"
+            >
+              STORE IMAGE
+            </div>
+            <div
+              class="border rounded overflow-hidden mt-8"
+            >
+              <img
+                alt="store avatar"
+                src="default-avatar.png"
+                width="100%"
+              />
+            </div>
+            <div
+              class="text-right mt-4"
+            >
+              <button
+                class="ant-btn ant-btn-link"
+                type="button"
+              >
+                <span>
+                  Remove
+                </span>
+              </button>
+              <div
+                class="inline-block ml-2"
+              >
+                <span
+                  class=""
+                >
+                  <div
+                    class="ant-upload ant-upload-select ant-upload-select-text"
+                  >
+                    <span
+                      class="ant-upload"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <input
+                        accept=""
+                        style="display: none;"
+                        type="file"
+                      />
+                      <button
+                        class="ant-btn ant-btn-primary"
+                        type="button"
+                      >
+                        <span>
+                          Upload
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-2/3 pl-8"
+          >
+            <div
+              class="ant-spin-nested-loading"
+            >
+              <div
+                class="ant-spin-container"
+              >
+                <div
+                  class="font-bold"
+                >
+                  BASIC INFO
+                </div>
+                <div
+                  class="mt-8"
+                >
+                  <form
+                    class="ant-form ant-form-horizontal"
+                    name="editStoreProfileForm"
+                  >
+                    <div
+                      class="ant-row ant-form-item ant-form-item-with-help"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="Store Name"
+                        >
+                          Store Name
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control has-success"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <input
+                              class="ant-input"
+                              name="storeName"
+                              type="text"
+                              value="KOI"
+                            />
+                          </span>
+                          <div
+                            class="ant-form-explain show-help-appear"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-row ant-form-item"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="Store Address"
+                        >
+                          Store Address
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <div
+                              class="flex justify-start"
+                            >
+                              <div
+                                class="w-1/2"
+                              >
+                                <input
+                                  class="ant-input"
+                                  name="storeAddress"
+                                  placeholder="Address"
+                                  type="text"
+                                  value="521 Ho Tung Mau"
+                                />
+                              </div>
+                              <div
+                                class="w-1/4 pl-4"
+                              >
+                                <div
+                                  class="ant-select ant-select-enabled"
+                                >
+                                  <div
+                                    aria-autocomplete="list"
+                                    aria-controls="test-uuid"
+                                    aria-expanded="false"
+                                    aria-haspopup="true"
+                                    class="ant-select-selection
+            ant-select-selection--single"
+                                    role="combobox"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="ant-select-selection__rendered"
+                                    >
+                                      <div
+                                        class="ant-select-selection__placeholder"
+                                        style="display: none; user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        District
+                                      </div>
+                                      <div
+                                        class="ant-select-selection-selected-value"
+                                        style="display: block; opacity: 1;"
+                                        title="Q.8"
+                                      >
+                                        Q.8
+                                      </div>
+                                    </div>
+                                    <span
+                                      class="ant-select-arrow"
+                                      style="user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      <i
+                                        aria-label="icon: down"
+                                        class="anticon anticon-down ant-select-arrow-icon"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class=""
+                                          data-icon="down"
+                                          fill="currentColor"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                          />
+                                        </svg>
+                                      </i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="w-1/4 pl-4"
+                              >
+                                <div
+                                  class="ant-select ant-select-enabled"
+                                >
+                                  <div
+                                    aria-autocomplete="list"
+                                    aria-controls="test-uuid"
+                                    aria-expanded="false"
+                                    aria-haspopup="true"
+                                    class="ant-select-selection
+            ant-select-selection--single"
+                                    role="combobox"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="ant-select-selection__rendered"
+                                    >
+                                      <div
+                                        class="ant-select-selection__placeholder"
+                                        style="display: none; user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        City
+                                      </div>
+                                      <div
+                                        class="ant-select-selection-selected-value"
+                                        style="display: block; opacity: 1;"
+                                        title="HCM"
+                                      >
+                                        HCM
+                                      </div>
+                                    </div>
+                                    <span
+                                      class="ant-select-arrow"
+                                      style="user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      <i
+                                        aria-label="icon: down"
+                                        class="anticon anticon-down ant-select-arrow-icon"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class=""
+                                          data-icon="down"
+                                          fill="currentColor"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                          />
+                                        </svg>
+                                      </i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-row ant-form-item ant-form-item-with-help"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="Phone #"
+                        >
+                          Phone #
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control has-success"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <input
+                              class="ant-input"
+                              name="storePhone"
+                              placeholder="Phone"
+                              type="text"
+                              value="1234567890"
+                            />
+                          </span>
+                          <div
+                            class="ant-form-explain show-help-appear"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="mt-8"
+                    />
+                    <div
+                      class="font-bold"
+                    >
+                      RED INVOICE INFO
+                    </div>
+                    <div
+                      class="mt-4"
+                    />
+                    <div
+                      class="ant-row ant-form-item"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="Company Name"
+                        >
+                          Company Name
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <input
+                              class="ant-input"
+                              name="riCompanyName"
+                              type="text"
+                              value="KOI"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-row ant-form-item"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="Company Address"
+                        >
+                          Company Address
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <div
+                              class="flex justify-start"
+                            >
+                              <div
+                                class="w-1/2"
+                              >
+                                <input
+                                  class="ant-input"
+                                  name="riCompanyAddress"
+                                  type="text"
+                                  value="123"
+                                />
+                              </div>
+                              <div
+                                class="w-1/4 pl-4"
+                              >
+                                <div
+                                  class="ant-select ant-select-enabled"
+                                >
+                                  <div
+                                    aria-autocomplete="list"
+                                    aria-controls="test-uuid"
+                                    aria-expanded="false"
+                                    aria-haspopup="true"
+                                    class="ant-select-selection
+            ant-select-selection--single"
+                                    role="combobox"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="ant-select-selection__rendered"
+                                    >
+                                      <div
+                                        class="ant-select-selection__placeholder"
+                                        style="display: none; user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        District
+                                      </div>
+                                      <div
+                                        class="ant-select-selection-selected-value"
+                                        style="display: block; opacity: 1;"
+                                        title="Q.9"
+                                      >
+                                        Q.9
+                                      </div>
+                                    </div>
+                                    <span
+                                      class="ant-select-arrow"
+                                      style="user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      <i
+                                        aria-label="icon: down"
+                                        class="anticon anticon-down ant-select-arrow-icon"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class=""
+                                          data-icon="down"
+                                          fill="currentColor"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                          />
+                                        </svg>
+                                      </i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="w-1/4 pl-4"
+                              >
+                                <div
+                                  class="ant-select ant-select-enabled"
+                                >
+                                  <div
+                                    aria-autocomplete="list"
+                                    aria-controls="test-uuid"
+                                    aria-expanded="false"
+                                    aria-haspopup="true"
+                                    class="ant-select-selection
+            ant-select-selection--single"
+                                    role="combobox"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="ant-select-selection__rendered"
+                                    >
+                                      <div
+                                        class="ant-select-selection__placeholder"
+                                        style="display: none; user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        City
+                                      </div>
+                                      <div
+                                        class="ant-select-selection-selected-value"
+                                        style="display: block; opacity: 1;"
+                                        title="HCM"
+                                      >
+                                        HCM
+                                      </div>
+                                    </div>
+                                    <span
+                                      class="ant-select-arrow"
+                                      style="user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      <i
+                                        aria-label="icon: down"
+                                        class="anticon anticon-down ant-select-arrow-icon"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class=""
+                                          data-icon="down"
+                                          fill="currentColor"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                          />
+                                        </svg>
+                                      </i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-row ant-form-item"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label"
+                      >
+                        <label
+                          class=""
+                          title="MST"
+                        >
+                          MST
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <input
+                              class="ant-input"
+                              name="riCompanyTaxCode"
+                              type="text"
+                              value="123"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-row ant-form-item"
+                    >
+                      <div
+                        class="ant-col ant-form-item-control-wrapper"
+                      >
+                        <div
+                          class="ant-form-item-control"
+                        >
+                          <span
+                            class="ant-form-item-children"
+                          >
+                            <button
+                              class="ant-btn w-full ant-btn-primary"
+                              type="submit"
+                            >
+                              <span>
+                                Save
+                              </span>
+                            </button>
+                            <button
+                              class="ant-btn w-full ant-btn-link"
+                              type="button"
+                            >
+                              <span>
+                                Cancel
+                              </span>
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="pl-16 pr-16 ml-auto mr-auto mt-8"
+      style="max-width: 900px;"
+    >
+      <div>
+        <i
+          aria-label="icon: edit"
+          class="anticon anticon-edit text-xl text-primary"
+        >
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="edit"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 0 0 0-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 0 0 9.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+            />
+          </svg>
+        </i>
+        <span
+          class="ml-4 font-bold"
+        >
+          EDIT STORE PROFILE
+        </span>
+      </div>
+      <div
+        class="ant-divider ant-divider-horizontal"
+        role="separator"
+      />
+      <div
+        class="flex justify-between"
+      >
+        <div
+          class="w-1/3 pr-8"
+        >
+          <div
+            class="font-bold"
+          >
+            STORE IMAGE
+          </div>
+          <div
+            class="border rounded overflow-hidden mt-8"
+          >
+            <img
+              alt="store avatar"
+              src="default-avatar.png"
+              width="100%"
+            />
+          </div>
+          <div
+            class="text-right mt-4"
+          >
+            <button
+              class="ant-btn ant-btn-link"
+              type="button"
+            >
+              <span>
+                Remove
+              </span>
+            </button>
+            <div
+              class="inline-block ml-2"
+            >
+              <span
+                class=""
+              >
+                <div
+                  class="ant-upload ant-upload-select ant-upload-select-text"
+                >
+                  <span
+                    class="ant-upload"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <input
+                      accept=""
+                      style="display: none;"
+                      type="file"
+                    />
+                    <button
+                      class="ant-btn ant-btn-primary"
+                      type="button"
+                    >
+                      <span>
+                        Upload
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-2/3 pl-8"
+        >
+          <div
+            class="ant-spin-nested-loading"
+          >
+            <div
+              class="ant-spin-container"
+            >
+              <div
+                class="font-bold"
+              >
+                BASIC INFO
+              </div>
+              <div
+                class="mt-8"
+              >
+                <form
+                  class="ant-form ant-form-horizontal"
+                  name="editStoreProfileForm"
+                >
+                  <div
+                    class="ant-row ant-form-item ant-form-item-with-help"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="Store Name"
+                      >
+                        Store Name
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control has-success"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <input
+                            class="ant-input"
+                            name="storeName"
+                            type="text"
+                            value="KOI"
+                          />
+                        </span>
+                        <div
+                          class="ant-form-explain show-help-appear"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-row ant-form-item"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="Store Address"
+                      >
+                        Store Address
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <div
+                            class="flex justify-start"
+                          >
+                            <div
+                              class="w-1/2"
+                            >
+                              <input
+                                class="ant-input"
+                                name="storeAddress"
+                                placeholder="Address"
+                                type="text"
+                                value="521 Ho Tung Mau"
+                              />
+                            </div>
+                            <div
+                              class="w-1/4 pl-4"
+                            >
+                              <div
+                                class="ant-select ant-select-enabled"
+                              >
+                                <div
+                                  aria-autocomplete="list"
+                                  aria-controls="test-uuid"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  class="ant-select-selection
+            ant-select-selection--single"
+                                  role="combobox"
+                                  tabindex="0"
+                                >
+                                  <div
+                                    class="ant-select-selection__rendered"
+                                  >
+                                    <div
+                                      class="ant-select-selection__placeholder"
+                                      style="display: none; user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      District
+                                    </div>
+                                    <div
+                                      class="ant-select-selection-selected-value"
+                                      style="display: block; opacity: 1;"
+                                      title="Q.8"
+                                    >
+                                      Q.8
+                                    </div>
+                                  </div>
+                                  <span
+                                    class="ant-select-arrow"
+                                    style="user-select: none;"
+                                    unselectable="on"
+                                  >
+                                    <i
+                                      aria-label="icon: down"
+                                      class="anticon anticon-down ant-select-arrow-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        class=""
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="w-1/4 pl-4"
+                            >
+                              <div
+                                class="ant-select ant-select-enabled"
+                              >
+                                <div
+                                  aria-autocomplete="list"
+                                  aria-controls="test-uuid"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  class="ant-select-selection
+            ant-select-selection--single"
+                                  role="combobox"
+                                  tabindex="0"
+                                >
+                                  <div
+                                    class="ant-select-selection__rendered"
+                                  >
+                                    <div
+                                      class="ant-select-selection__placeholder"
+                                      style="display: none; user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      City
+                                    </div>
+                                    <div
+                                      class="ant-select-selection-selected-value"
+                                      style="display: block; opacity: 1;"
+                                      title="HCM"
+                                    >
+                                      HCM
+                                    </div>
+                                  </div>
+                                  <span
+                                    class="ant-select-arrow"
+                                    style="user-select: none;"
+                                    unselectable="on"
+                                  >
+                                    <i
+                                      aria-label="icon: down"
+                                      class="anticon anticon-down ant-select-arrow-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        class=""
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-row ant-form-item ant-form-item-with-help"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="Phone #"
+                      >
+                        Phone #
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control has-success"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <input
+                            class="ant-input"
+                            name="storePhone"
+                            placeholder="Phone"
+                            type="text"
+                            value="1234567890"
+                          />
+                        </span>
+                        <div
+                          class="ant-form-explain show-help-appear"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-8"
+                  />
+                  <div
+                    class="font-bold"
+                  >
+                    RED INVOICE INFO
+                  </div>
+                  <div
+                    class="mt-4"
+                  />
+                  <div
+                    class="ant-row ant-form-item"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="Company Name"
+                      >
+                        Company Name
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <input
+                            class="ant-input"
+                            name="riCompanyName"
+                            type="text"
+                            value="KOI"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-row ant-form-item"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="Company Address"
+                      >
+                        Company Address
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <div
+                            class="flex justify-start"
+                          >
+                            <div
+                              class="w-1/2"
+                            >
+                              <input
+                                class="ant-input"
+                                name="riCompanyAddress"
+                                type="text"
+                                value="123"
+                              />
+                            </div>
+                            <div
+                              class="w-1/4 pl-4"
+                            >
+                              <div
+                                class="ant-select ant-select-enabled"
+                              >
+                                <div
+                                  aria-autocomplete="list"
+                                  aria-controls="test-uuid"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  class="ant-select-selection
+            ant-select-selection--single"
+                                  role="combobox"
+                                  tabindex="0"
+                                >
+                                  <div
+                                    class="ant-select-selection__rendered"
+                                  >
+                                    <div
+                                      class="ant-select-selection__placeholder"
+                                      style="display: none; user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      District
+                                    </div>
+                                    <div
+                                      class="ant-select-selection-selected-value"
+                                      style="display: block; opacity: 1;"
+                                      title="Q.9"
+                                    >
+                                      Q.9
+                                    </div>
+                                  </div>
+                                  <span
+                                    class="ant-select-arrow"
+                                    style="user-select: none;"
+                                    unselectable="on"
+                                  >
+                                    <i
+                                      aria-label="icon: down"
+                                      class="anticon anticon-down ant-select-arrow-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        class=""
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="w-1/4 pl-4"
+                            >
+                              <div
+                                class="ant-select ant-select-enabled"
+                              >
+                                <div
+                                  aria-autocomplete="list"
+                                  aria-controls="test-uuid"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  class="ant-select-selection
+            ant-select-selection--single"
+                                  role="combobox"
+                                  tabindex="0"
+                                >
+                                  <div
+                                    class="ant-select-selection__rendered"
+                                  >
+                                    <div
+                                      class="ant-select-selection__placeholder"
+                                      style="display: none; user-select: none;"
+                                      unselectable="on"
+                                    >
+                                      City
+                                    </div>
+                                    <div
+                                      class="ant-select-selection-selected-value"
+                                      style="display: block; opacity: 1;"
+                                      title="HCM"
+                                    >
+                                      HCM
+                                    </div>
+                                  </div>
+                                  <span
+                                    class="ant-select-arrow"
+                                    style="user-select: none;"
+                                    unselectable="on"
+                                  >
+                                    <i
+                                      aria-label="icon: down"
+                                      class="anticon anticon-down ant-select-arrow-icon"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        class=""
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-row ant-form-item"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label"
+                    >
+                      <label
+                        class=""
+                        title="MST"
+                      >
+                        MST
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <input
+                            class="ant-input"
+                            name="riCompanyTaxCode"
+                            type="text"
+                            value="123"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-row ant-form-item"
+                  >
+                    <div
+                      class="ant-col ant-form-item-control-wrapper"
+                    >
+                      <div
+                        class="ant-form-item-control"
+                      >
+                        <span
+                          class="ant-form-item-children"
+                        >
+                          <button
+                            class="ant-btn w-full ant-btn-primary"
+                            type="submit"
+                          >
+                            <span>
+                              Save
+                            </span>
+                          </button>
+                          <button
+                            class="ant-btn w-full ant-btn-link"
+                            type="button"
+                          >
+                            <span>
+                              Cancel
+                            </span>
+                          </button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
